@@ -1,0 +1,7 @@
+<h1>PINTAR DATOS PARTIENDO DE LA PETICION DE UNA API</h1>
+<section>
+  <mat-card class="example-card" *ngFor="let item of peticionGithub">
+    <p>{{ item.current_user_url }}</p>
+    <p>{{ item.emojis_url }}</p>
+  </mat-card>
+</section>
