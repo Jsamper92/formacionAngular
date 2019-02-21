@@ -1,0 +1,18 @@
+<mat-card class="example-card">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title>{{ datos.title }}</mat-card-title>
+  </mat-card-header>
+  <img mat-card-image src="{{ datos.avatarUrl }}" alt="Photo of a Shiba Inu" />
+  <mat-card-content>
+    <p>
+      {{ datos.description }}
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button>LIKES: {{ datos.likes }}</button>
+    <button mat-button>SHARE</button>
+  </mat-card-actions>
+</mat-card>
+
+

@@ -3,3 +3,17 @@ ul{
   justify-content: space-around;
   list-style-type: none;
 }
+
+section{
+  display: flex;
+
+}
+
+div{
+  background-color: red;
+  width: 100px;
+  height: 100px;
+
+
+  margin: 10px;
+}

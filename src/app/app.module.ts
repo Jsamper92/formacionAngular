@@ -20,6 +20,7 @@ import {MatCardModule} from '@angular/material/card';
 //modulos
 import { HttpClientModule } from '@angular/common/http';
 import { RoutingEjemploComponent } from './routing-ejemplo/routing-ejemplo.component';
+import { GithubResultsDetailsComponent } from './github-results/github-results-details/github-results-details.component';
 
 
 
@@ -30,7 +31,8 @@ import { RoutingEjemploComponent } from './routing-ejemplo/routing-ejemplo.compo
     GithubServeComponent,
     GithubResultsComponent,
     PeticionGithubComponent,
-    RoutingEjemploComponent
+    RoutingEjemploComponent,
+    GithubResultsDetailsComponent
   ],
   imports: [
     BrowserModule,
